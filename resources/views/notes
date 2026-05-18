@@ -1,0 +1,12 @@
+    php artisan migrate --path=/database/migrations/2025_09_16_055923_create_carts_table.php
+    // for specific table migrate
+    php artisan db:seed --class=nameofthesedderfill
+    // for specific table seeder..
+
+
+in migration like in past you create cart table and after you have to add field in that table so..
+php artisan make:migration add_color_and_size_to_carts_table --table=carts
+
+
+
+productDetails ke controller me or color or size kei blade file me 
